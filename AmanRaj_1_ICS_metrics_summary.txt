@@ -1,0 +1,19 @@
+============================================================
+FINAL PERFORMANCE METRICS EVALUATION (UNSEEN TEST DATASET)
+============================================================
+Evaluated Architecture: YOLOv8-Nano (Selected Champion)
+Total Test Images: 21 completely unseen images
+
+1. Precision (P):     0.9980 (99.8%)
+2. Recall (R):        1.0000 (100.0% - Zero Missed Calculators)
+3. F1-Score:          0.9990 (99.9%)
+4. mAP @ 0.50:        0.9950 (99.5%)
+5. mAP @ 0.50:0.95:   0.9017 (90.2%)
+6. Inference Latency: ~28 ms (35+ FPS on standard CPU)
+
+Multi-Architecture Benchmark Comparison:
+- YOLOv8-Nano:   mAP50: 99.5% | P: 99.8% | R: 100.0% (Winner)
+- YOLO11-Nano:   mAP50: 99.5% | P: 97.5% | R: 98.7%
+- YOLO11-Small:  mAP50: 91.0% | P: 93.4% | R: 85.7%
+- YOLOv8-Small:  mAP50: 85.1% | P: 94.3% | R: 78.3%
+============================================================

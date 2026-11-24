@@ -1,0 +1,10 @@
+__pycache__/
+*.py[cod]
+*$py.class
+.vscode/
+.idea/
+*.swp
+*~
+.DS_Store
+runs/
+*.log
